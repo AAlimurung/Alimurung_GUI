@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fd9ed93-1029-4d9a-97e6-4a40ed90701e" name="Changes" comment="Commit Leap Year">
+    <list default="true" id="8fd9ed93-1029-4d9a-97e6-4a40ed90701e" name="Changes" comment="Commit All">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FoodOrderSystem/FoodOrder.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/FoodOrderSystem/FoodOrder.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FoodOrderSystem/FoodOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FoodOrderSystem/FoodOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +58,19 @@
       <option name="project" value="LOCAL" />
       <updated>1700124516344</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit All">
+      <created>1700125682495</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700125682495</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit Leap Year" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit Leap Year" />
+    <MESSAGE value="Commit All" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit All" />
   </component>
 </project>
