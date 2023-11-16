@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FoodOrderSystem.FoodOrder">
-  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="7" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="8" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
       <xy x="20" y="20" width="500" height="400"/>
     </constraints>
-    <properties/>
+    <properties>
+      <background color="-1843240"/>
+    </properties>
     <border type="none"/>
     <children>
       <component id="c3802" class="javax.swing.JLabel">
@@ -13,62 +15,199 @@
           <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Label"/>
+          <foreground color="-16711680"/>
+          <horizontalAlignment value="0"/>
+          <text value="Foods"/>
         </properties>
       </component>
-      <vspacer id="39cf3">
-        <constraints>
-          <grid row="1" column="1" row-span="6" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-        </constraints>
-      </vspacer>
-      <component id="d31b7" class="javax.swing.JCheckBox" binding="checkBox1" default-binding="true">
+      <component id="d31b7" class="javax.swing.JCheckBox" binding="pizzaCheckBox" default-binding="true">
         <constraints>
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="CheckBox"/>
+          <background color="-1843240"/>
+          <foreground color="-16711680"/>
+          <text value="Pizza"/>
         </properties>
       </component>
-      <component id="a8592" class="javax.swing.JCheckBox" binding="checkBox2" default-binding="true">
+      <component id="a8592" class="javax.swing.JCheckBox" binding="friesCheckBox" default-binding="true">
         <constraints>
           <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="CheckBox"/>
+          <background color="-1843240"/>
+          <foreground color="-16711680"/>
+          <text value="Fries"/>
         </properties>
       </component>
-      <component id="d2aeb" class="javax.swing.JCheckBox" binding="checkBox3" default-binding="true">
+      <component id="d2aeb" class="javax.swing.JCheckBox" binding="sundaeCheckBox" default-binding="true">
         <constraints>
           <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="CheckBox"/>
+          <background color="-1843240"/>
+          <foreground color="-16711680"/>
+          <text value="Sundae"/>
         </properties>
       </component>
-      <component id="bb8db" class="javax.swing.JCheckBox" binding="checkBox4" default-binding="true">
+      <component id="bb8db" class="javax.swing.JCheckBox" binding="teaCheckBox" default-binding="true">
         <constraints>
           <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="CheckBox"/>
+          <background color="-1843240"/>
+          <foreground color="-16711680"/>
+          <text value="Tea"/>
         </properties>
       </component>
-      <component id="6a0af" class="javax.swing.JCheckBox" binding="checkBox5" default-binding="true">
+      <component id="6a0af" class="javax.swing.JCheckBox" binding="burgerCheckBox" default-binding="true">
         <constraints>
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="CheckBox"/>
+          <background color="-1843240"/>
+          <foreground color="-16711680"/>
+          <text value="Burger"/>
         </properties>
       </component>
-      <component id="83eff" class="javax.swing.JCheckBox" binding="checkBox6" default-binding="true">
+      <component id="83eff" class="javax.swing.JCheckBox" binding="softDrinksCheckBox" default-binding="true">
         <constraints>
           <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="CheckBox"/>
+          <background color="-1843240"/>
+          <foreground color="-16711680"/>
+          <text value="Soft Drinks"/>
+        </properties>
+      </component>
+      <component id="7937a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-16711680"/>
+          <horizontalAlignment value="0"/>
+          <text value="Discounts"/>
+        </properties>
+      </component>
+      <component id="c4901" class="javax.swing.JRadioButton" binding="noneRadioButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1843240"/>
+          <foreground color="-16711680"/>
+          <text value="None"/>
+        </properties>
+      </component>
+      <component id="79890" class="javax.swing.JRadioButton" binding="a5OffRadioButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1843240"/>
+          <foreground color="-16711680"/>
+          <text value="5% Off"/>
+        </properties>
+      </component>
+      <component id="79207" class="javax.swing.JRadioButton" binding="a10OffRadioButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1843240"/>
+          <foreground color="-16711680"/>
+          <text value="10% Off"/>
+        </properties>
+      </component>
+      <component id="b487c" class="javax.swing.JRadioButton" binding="a15OffRadioButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1843240"/>
+          <foreground color="-16711680"/>
+          <text value="15% Off"/>
+        </properties>
+      </component>
+      <component id="9ef96" class="javax.swing.JButton" binding="orderButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1843240"/>
+          <foreground color="-16711680"/>
+          <text value="Order"/>
+        </properties>
+      </component>
+      <component id="983da" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1843240"/>
+          <foreground color="-16711680"/>
+          <text value="Php 100"/>
+        </properties>
+      </component>
+      <component id="bd4ef" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1843240"/>
+          <foreground color="-16711680"/>
+          <text value="Php 80"/>
+        </properties>
+      </component>
+      <component id="1a420" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1843240"/>
+          <foreground color="-16711680"/>
+          <text value="Php 65"/>
+        </properties>
+      </component>
+      <component id="fa91e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1843240"/>
+          <foreground color="-16711680"/>
+          <text value="Php 55"/>
+        </properties>
+      </component>
+      <component id="8bde9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1843240"/>
+          <foreground color="-16711680"/>
+          <text value="Php 50"/>
+        </properties>
+      </component>
+      <component id="1d97" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1843240"/>
+          <foreground color="-16711680"/>
+          <text value="Php 40"/>
         </properties>
       </component>
     </children>
   </grid>
+  <buttonGroups>
+    <group name="buttonGroup1">
+      <member id="c4901"/>
+      <member id="79890"/>
+      <member id="79207"/>
+      <member id="b487c"/>
+    </group>
+  </buttonGroups>
 </form>
